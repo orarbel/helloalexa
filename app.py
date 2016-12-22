@@ -19,7 +19,7 @@ response_tmpl = {
 }
 
 
-def hello_world(name=None)::
+def hello_world(name=None):
     next_train_response = response_tmpl
     text_response = "The next train from {} to {} is soon".format(fr, to)
     next_train_response['response']['outputSpeech']['text'] = text_response
